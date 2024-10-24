@@ -6,7 +6,8 @@ def count_words(file):
     #ponctuation = [".",";",":","?","!","(",")","'",'"',"{","}",]
     count = 0 
 
-    book_as_list = file.split(" ")
+    book_as_list = file.split()
+    #print(book_as_list)
    
     for item in book_as_list: 
         #print(item)
